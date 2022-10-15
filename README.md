@@ -1,2 +1,2 @@
 # ElasTech Exercicios
-Exercicios das aulas sincronas e assincronas.
+Exercicios das aulas síncronas e assíncronas.
