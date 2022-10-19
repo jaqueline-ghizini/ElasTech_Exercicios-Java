@@ -1,4 +1,4 @@
-package elastech.java.exercicios;
+package elastech.java.exercicios15out;
 
 //EXERCICIO DOIS IF-ELSE - informa perido do dia
 public class ExercicioDois {

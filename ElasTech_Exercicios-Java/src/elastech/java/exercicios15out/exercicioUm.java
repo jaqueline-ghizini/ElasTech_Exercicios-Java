@@ -1,4 +1,4 @@
-package elastech.java.exercicios;
+package elastech.java.exercicios15out;
 
 //EXERCICIO UM IF-ELSE - informa imposto
 public class exercicioUm {

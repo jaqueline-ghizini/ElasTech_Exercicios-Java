@@ -1,8 +1,12 @@
-package elastech.java.exercicios;
+package elastech.java;
 
-import elastech.java.exercicios.ExercicioDois;
-import elastech.java.exercicios.ExercicioTres;
-import elastech.java.exercicios.exercicioUm;
+import elastech.java.exercicios18out.Curso;
+import elastech.java.exercicios18out.ListaImpares;
+import elastech.java.exercicios18out.ListaPares;
+import elastech.java.exercicios15out.exercicioUm;
+import elastech.java.exercicios15out.ExercicioDois;
+import elastech.java.exercicios15out.ExercicioTres;
+import elastech.java.exercicios15out.ExercicioQuatro;
 
 import java.util.Scanner;
 public class Main {
@@ -33,6 +37,20 @@ public class Main {
         System.out.print("Digite o seu salario: ");
         quatro.salarioTern = teclado.nextDouble();
         System.out.println(quatro.informarValorImposto(quatro.salarioTern));
+
+        //exercicio while 1 18/10
+        Curso curso = new Curso();
+        curso.escreveNome();
+
+        //exercicio while 2 18/10
+        ListaPares listap = new ListaPares();
+        listap.listarPar();
+
+        System.out.println();//para publar linha
+
+        //exercicio while 3 18/10
+        ListaImpares listai = new ListaImpares();
+        listai.listarImpar();
      }
 }
 //atalhos
