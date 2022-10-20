@@ -1,12 +1,6 @@
 package elastech.java;
 
-import elastech.java.exercicios18out.Curso;
-import elastech.java.exercicios18out.ListaImpares;
-import elastech.java.exercicios18out.ListaPares;
-import elastech.java.exercicios15out.exercicioUm;
-import elastech.java.exercicios15out.ExercicioDois;
-import elastech.java.exercicios15out.ExercicioTres;
-import elastech.java.exercicios15out.ExercicioQuatro;
+import elastech.java.exercicios19out.*;
 
 import java.util.Scanner;
 public class Main {
@@ -15,7 +9,7 @@ public class Main {
         Scanner teclado = new Scanner(System.in);
 
         //Exercicio Um
-        exercicioUm um = new exercicioUm();
+        /*exercicioUm um = new exercicioUm();
         System.out.print("Digite o seu salario: ");
         um.salario = teclado.nextDouble();
         System.out.println(um.informaValorImposto(um.salario));
@@ -50,8 +44,32 @@ public class Main {
 
         //exercicio while 3 18/10
         ListaImpares listai = new ListaImpares();
-        listai.listarImpar();
-     }
+        listai.listarImpar();*/
+
+        //Exercicio um for 19/10
+        //TabuadaFor tabuada = new TabuadaFor();
+        //tabuada.escreveTabuada();
+
+        //Exercicio dois for 19/10
+        //TabuadaForDois tabuadaDois = new TabuadaForDois();
+        //tabuadaDois.escreveTabuadaDois();
+
+        //Exercicio exemplo da professora de tabuada com StringBuffer 19/10
+        //TabuadaStringBuffer tabusb = new TabuadaStringBuffer();
+        //tabusb.escreveTabuadaSB();
+
+        //Exercicio Um Array 19/10
+        //ArrayCidade cidades = new ArrayCidade();
+        //cidades.mostrarCidades();
+
+        //Exercicio Dois Array 19/10
+        ArrayCalculandoValores cal = new ArrayCalculandoValores();
+        cal.calcularValores();
+
+        //Exercicio Tres Array 19/10
+        ArrayMenorNumero menor = new ArrayMenorNumero();
+        menor.verificaMenorValor();
+    }
 }
 //atalhos
 //sout+tab para digitar automatico o System.out.print
