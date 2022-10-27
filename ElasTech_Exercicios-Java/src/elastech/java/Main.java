@@ -4,6 +4,8 @@ import elastech.java.exercicios15out.*;
 import elastech.java.exercicios18out.*;
 import elastech.java.exercicios19out.*;
 import elastech.java.exercicios20out.*;
+import elastech.java.exercicios26out.Impressao;
+import elastech.java.exercicios26out.MultiplosDeQuatro;
 
 import java.util.Scanner;
 public class Main {
@@ -101,19 +103,30 @@ public class Main {
 
 
         //Exercicio Dois POO Predio 20/10
-        PredioPOO predio1 = new PredioPOO();
+       /* PredioPOO predio1 = new PredioPOO();
         predio1.setNumApts(5);
         predio1.setEndereco("Rua das Flores 10");
         predio1.setCidade("Rio de Janeiro");
         predio1.setEstado("Rio de Janeiro");
-        System.out.println(predio1.toString());
+        System.out.println(predio1.toString());*/
 
-        PredioPOO predio2 = new PredioPOO();
+        /*PredioPOO predio2 = new PredioPOO();
         predio2.setNumApts(0);
         predio2.setEndereco("Rua Rio Branco");
         predio2.setCidade("Marilia");
         predio2.setEstado("São Paulo");
-        System.out.println(predio2.toString());
+        System.out.println(predio2.toString());*/
+
+        //Exercicio Impressao 26/10
+        Impressao imp = new Impressao();
+        imp.imprimeNumerosFor();
+        imp.imprimeNumeroWhile();
+        int[] array = {1, 2, 3, 4, 5};
+        imp.imprimeArray(array);
+
+        //Exercicio Multiplos de Quatro
+        MultiplosDeQuatro mult = new MultiplosDeQuatro();
+        mult.exibeMultiplosQuatro();
 
     }
 }
